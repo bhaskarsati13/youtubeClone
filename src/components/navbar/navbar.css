@@ -1,0 +1,62 @@
+/* Navbar Styles */
+nav {
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.left-nav, .mid-nav, .right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.left-nav .menu-icon {
+    width: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.left-nav .logo img {
+    width: 120px;
+}
+
+.mid-nav .search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 25px;
+    background: #f9f9f9;
+}
+
+.mid-nav .search-box input {
+    width: 350px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.mid-nav .search-box img {
+    width: 18px;
+    cursor: pointer;
+}
+
+.right-nav img {
+    width: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.right-nav .userPfp {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}

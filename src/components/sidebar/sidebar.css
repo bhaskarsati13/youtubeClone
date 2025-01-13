@@ -1,0 +1,99 @@
+
+.sidebar {
+    background: #fff;
+    width: 16%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding: 60px 1%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.shortcut-links img {
+    width: 20px;
+    margin-right: 12px;
+}
+
+
+.side-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: fit-content;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 14px;
+    color: #333;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.side-link:hover {
+    color: #000;
+}
+
+.side-link.active {
+    border-bottom: 2px solid red;
+}
+
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+    margin: 15px 0;
+}
+
+.subscribed-list h3 {
+    font-size: 12px;
+    margin: 10px 0;
+    color: #5a5a5a;
+}
+
+.subscribed-list img {
+    width: 22px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.small-sidebar {
+    width: 6%;
+    transition: width 0.3s ease;
+}
+
+.small-sidebar p,
+.small-sidebar h3 {
+    display: none;
+}
+
+.small-sidebar hr {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.small-sidebar .shortcut-links img {
+    width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 40%;
+        padding: 40px 1%;
+    }
+
+    .small-sidebar {
+        width: 10%;
+    }
+
+    .side-link {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .shortcut-links img {
+        width: 24px;
+    }
+}

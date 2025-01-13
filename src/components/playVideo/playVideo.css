@@ -1,0 +1,152 @@
+
+.play-video-page {
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.video-container iframe {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height:37vw;
+}
+
+  
+  .video-container h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  
+  .video-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #606060;
+    margin-top: 10px;
+  }
+  
+  
+  .video-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .video-actions span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .video-actions img {
+    width: 20px;
+    margin-right: 8px;
+  }
+  
+  
+  .publisher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .publisher img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .publisher div {
+    flex-grow: 1;
+  }
+  
+  .publisher div p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .publisher div span {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .publisher button {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .publisher button:hover {
+    background-color: #a30000;
+  }
+  
+  
+  .vid-description {
+    margin: 20px 0;
+    padding-left:60px;
+  }
+  
+  .vid-description p {
+    font-size: 14px;
+    color: #606060;
+  }
+  
+  .vid-description h4 {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+  
+  .comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .comment h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .comment h3 span {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  
+  .comment-action {
+    display: flex;
+    align-items: center;
+    gap: 4px
+  }
+  
+  .comment-action img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    margin-right: 5px;
+  }
+  
+  .comment-action span {
+    color: #777;
+  }
+  
